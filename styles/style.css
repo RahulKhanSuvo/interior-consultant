@@ -1,4 +1,6 @@
 * {
+    margin: 0;
+    padding: 0;
     background-color: #181719;
     color: white;
 }
@@ -9,15 +11,20 @@ body {
     font-family: 'PT Serif', serif;
     font-family: 'Space Mono', monospace;
     font-family: 'Work Sans', sans-serif;
+    color: white;
+    padding: 0 50px;
+    height: 100vh;
 }
 
 header {
-    padding: 50px 80px;
+    padding: 80px 0;
+
 }
 
 .nav-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav-options {
@@ -29,3 +36,20 @@ header {
 .less a {
     text-decoration: none;
 }
+
+.main-container {
+    display: flex;
+    align-items: center;
+    margin-top: 155px;
+
+}
+
+main {}
+
+footer {
+    margin-top: 100px;
+    padding-bottom:50px;
+
+}
+img{
+    width: 50%;}
